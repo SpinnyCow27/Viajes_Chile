@@ -17,3 +17,16 @@ $(document).ready(function() {
         $('#showAllCards').hide();
     }
 });
+
+
+
+$(document).ready(function() {
+    $('#openModalBtn').click(function() {
+        $('#myModal').modal('show');
+    });
+});
+
+
+
+
+
