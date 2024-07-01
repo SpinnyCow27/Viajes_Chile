@@ -174,7 +174,7 @@
                 </div>
                 <!--BOTON QUE RESTAURA LA DESAPARICION DE IMAGENES CON JQUERY-->
                 <div class="text-center">
-                    <button id="showAllCards" class="btn btn-danger mb-4">Volver a mostrar todas las tarjetas</button>
+                    <button id="showAllCards" class="btn btn-danger mb-4 d-none">Volver a mostrar todas las tarjetas</button>
                 </div>
             </div>
         </div>
@@ -187,20 +187,20 @@
             <hr class="pb-3">
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre completo">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre completo" data-bs-toggle="tooltip" data-bs-placement="top" title="Ingrese su nombre">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput2" class="form-label">Correo</label>
-                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="ejemplo@gmail.com">
+                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="ejemplo@gmail.com" data-bs-toggle="tooltip" data-bs-placement="top" title="Coloque su correo">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput3" class="form-label">Asunto</label>
-                <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Asunto...">
+                <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Asunto..." data-bs-toggle="tooltip" data-bs-placement="top" title="Coloque un buen asunto">
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                    placeholder="Escribe aqui tu mensaje"></textarea>
+                <label for="exampleFormControlTextarea4" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea4" rows="3"
+                    placeholder="Escribe aqui tu mensaje" data-bs-toggle="tooltip" data-bs-placement="top" title="Coloquenos un mensaje"></textarea>
             </div>
             <div class="mb-2 text-center">
                 <button class="btn btn-info btn-lg text-light px-5" type="button">Enviar</button>
@@ -210,7 +210,7 @@
 
     <!--ESTO SERA PARA LA PAGINA JAVASCRIPT SOLAMENTE-->
     <section id="modalsito" class="d-none d-sm-block"><hr>
-        <h4 class="text-center">Seccion Especial</h4>
+        <h4 class="text-center pb-3">Seccion Especial</h4>
         
         <button id="openModalBtn" class="btn btn-success mb-4 fw-bold d-flex mx-auto">
             Viaja con Nosotros!
@@ -227,7 +227,7 @@
                         <p>Debes estar atento a las Redes Sociales de Inforcap para enterarte de las diferentes ofertas,
                             cursos, entre otras cosas.</p>
                         <img src="https://doc-images-adl.s3.sa-east-1.amazonaws.com/Logo+Transparente+mas+pequen%CC%83o+2020.png"
-                            width="400" height="150" alt="">
+                            width="400" height="150" alt="" data-bs-toggle="tooltip" data-bs-placement="top" title="Tremendo el Logo de Inforcap">
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>

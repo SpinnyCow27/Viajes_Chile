@@ -184,26 +184,26 @@
     </section>
     <!------------------------------------------------------------------------------------------------------------------------>
     <!------------------------------------------------------------------------------------------------------------------------>
-    <section id="contactame" class="pb-5 pt-5">
+    <section id="contactame" class="pb-3 pt-5">
         <div class="container text-light">
             <h3 class="text-center mb-2">CONTACTO</h3>
             <hr class="pb-3">
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre completo">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre completo" data-toggle="tooltip" title="Coloque su nombre completo">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput2" class="form-label">Correo</label>
-                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="ejemplo@gmail.com">
+                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="ejemplo@gmail.com" data-toggle="tooltip" title="Coloque su correo">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput3" class="form-label">Asunto</label>
-                <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Asunto...">
+                <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Asunto..." data-toggle="tooltip" title="Comentenos que sucede">
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                    placeholder="Escribe aqui tu mensaje"></textarea>
+                <label for="exampleFormControlTextarea4" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea4" rows="3"
+                    placeholder="Escribe aqui tu mensaje" data-toggle="tooltip" title="Explaye el asunto a traves de un mensaje"></textarea>
             </div>
             <div class="mb-2 text-center">
                 <button class="btn btn-info btn-lg text-light px-5" type="button">Enviar</button>
@@ -211,11 +211,11 @@
         </div>
     </section>
     <!--MODAL REALIZADO CON JAVASCRIPT-->
-    <section id="modalsito">
-
-        <button id="openModalBtn" class="btn btn-success mb-4 fw-bold" data-bs-toggle="modal" data-bs-target="#myModal">
+    <section id="modalsito" class="d-none d-sm-block"><hr>
+        <h4 class="text-center">Seccion Especial</h4>
+        <button id="openModalBtn" class="btn btn-success mb-4 fw-bold d-flex mx-auto" data-bs-toggle="modal" data-bs-target="#myModal">
             Viaja con Nosotros!
-        </button>
+        </button><hr>
 
 
         <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -231,7 +231,7 @@
                         <p>Debes estar atento a las Redes Sociales de Inforcap para enterarte de las diferentes ofertas,
                             cursos, entre otras cosas.</p>
                         <img src="https://doc-images-adl.s3.sa-east-1.amazonaws.com/Logo+Transparente+mas+pequen%CC%83o+2020.png"
-                            width="400" height="150" alt="">
+                            width="400" height="150" alt="" data-toggle="tooltip" title="Que buen logo Inforcap">
                     </div>
 
                     <div class="modal-footer">

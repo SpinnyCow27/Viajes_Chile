@@ -1,3 +1,4 @@
+// PERMITE CLICKEAR LAS IMAGENES PARA DESAPARECERLAS Y LUEGO UN BOTON PARA APARECERLAS DE VUELTA
 $(document).ready(function() {
     $('#Destacados .card-title').click(function() {
         $(this).closest('.card').toggle();
@@ -19,14 +20,18 @@ $(document).ready(function() {
 });
 
 
-
+// PERMITE ABRIR EL MODAL DESDE EL BOTON CON DICHO ID
 $(document).ready(function() {
     $('#openModalBtn').click(function() {
         $('#myModal').modal('show');
     });
 });
 
-
+// INGRESO DE TOOLTIP
+$(document).ready(function() {
+    // Activar tooltips
+    $('[data-toggle="tooltip"]').tooltip();
+});
 
 
 
